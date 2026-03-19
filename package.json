@@ -1,0 +1,12 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "scripts": {
+    "install:all": "cd client && npm install && cd ../server && npm install",
+    "dev": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "preview": "cd client && npm run preview",
+    "server": "cd server && node server.js",
+    "start": "npm run build && npm run server"
+  }
+}

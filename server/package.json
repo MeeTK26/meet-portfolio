@@ -1,0 +1,9 @@
+{
+  "name": "portfolio-server",
+  "version": "1.0.0",
+  "description": "Static file server for portfolio (deployment only)",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
