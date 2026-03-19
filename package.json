@@ -1,12 +1,17 @@
 {
   "name": "portfolio",
   "private": true,
+  
   "scripts": {
     "install:all": "cd client && npm install && cd ../server && npm install",
-    "dev": "cd client && npm run dev",
-    "build": "cd client && npm run build",
+    "dev": "echo \"Use client folder\"",
+    "build": "echo \"No build at root\"",
     "preview": "cd client && npm run preview",
     "server": "cd server && node server.js",
     "start": "npm run build && npm run server"
+    
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
